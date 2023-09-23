@@ -1,0 +1,11 @@
+{
+  "name": "server-template",
+  "private": true,
+  "dependencies": {
+    "@trpc/server": "^10.38.4",
+    "zod": "^3.22.2"
+  },
+  "scripts": {
+    "dev": "bun --hot src/index.ts"
+  }
+}
